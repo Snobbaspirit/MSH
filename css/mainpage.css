@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Camper Script 2";
+    src: url(../fonts/CamperScript.otf) format("opentype");
+    font-family: "Incised901 Nd BT";
+    src: url(../fonts/TT0469M.TTF) format("ttf");
+}
+
+body {
+    background: url(img/maingbg.jpg) no-repeat center top /cover;
+}
+
+nav {
+  float: right;
+  font-family: "Incised901 Nd BT";
+}
+
+.section1 {
+    height: 20px;
+}
+
+.section2 {
+    height: 100px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+    display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+    margin-right: 41px;
+}
+
+.menu a {
+	color: #e234e3;
+	text-decoration: none;
+    text-transform: uppercase;
+	font-size: 14px;
+}
+
+h1 {
+    font-family: "Camper Script 2";
+    text-align: center;
+    margin-top: 0px;
+    font-size: 100px;
+    color: #310335;
+}
+
+h2 {
+   font-family: "Camper Script 2"; 
+   text-align: center;
+   font-size: 80px;
+   color: #310335;
+   margin-top: 0px;
+   opacity: 0.55; 
+}
+
+.wegot {
+    background: url(img/invis.png) no-repeat center;
+}
+
+.button {
+    background: #6725e9;
+    color: #310335;
+    border-radius: 4px;
+    display: block;
+    width: 200px;
+    padding: 20px 0;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
