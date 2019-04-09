@@ -41,6 +41,14 @@ nav {
 	font-size: 14px;
 }
 
+.change {
+    transition: color .5s linear;
+}
+
+.change:hover {
+    color: #1195da;
+}
+
 h1 {
     font-family: "Camper Script 2";
     text-align: center;
