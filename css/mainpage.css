@@ -12,18 +12,12 @@ body {
 nav {
   float: right;
   font-family: "Incised901 Nd BT";
-<<<<<<< HEAD
   font-style: italic;
-=======
->>>>>>> a7a0435f8c1cc6f909bd2a206e98961573d1effe
 }
 
 .section1 {
     height: 20px;
-<<<<<<< HEAD
     display: block;
-=======
->>>>>>> a7a0435f8c1cc6f909bd2a206e98961573d1effe
 }
 
 .section2 {
@@ -50,11 +44,8 @@ nav {
 }
 
 .change {
-<<<<<<< HEAD
     transition: color .35s linear;
-=======
     transition: color .5s linear;
->>>>>>> a7a0435f8c1cc6f909bd2a206e98961573d1effe
 }
 
 .change:hover {
@@ -91,7 +82,6 @@ h2 {
     padding: 20px 0;
     margin: 0 auto;
     margin-top: 200px;
-<<<<<<< HEAD
     margin-bottom: 160px;
     text-transform: uppercase;
     text-decoration: none;
@@ -114,11 +104,3 @@ h2 {
     text-align: center;
     margin-top: 50px;
 }
-=======
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-}
->>>>>>> a7a0435f8c1cc6f909bd2a206e98961573d1effe
