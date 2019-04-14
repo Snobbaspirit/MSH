@@ -1,58 +1,69 @@
-@font-face {
+@font-face
+{
     font-family: "Camper Script 2";
     src: url(../fonts/CamperScript.otf) format("opentype");
     font-family: "Incised901 Nd BT";
     src: url(../fonts/TT0469M.TTF) format("ttf");
 }
 
-body {
+body
+{
     background: url(img/maingbg.jpg) no-repeat center top /cover;
 }
 
-nav {
+nav
+{
   float: right;
   font-family: "Incised901 Nd BT";
   font-style: italic;
 }
 
-.section1 {
+.section1
+{
     height: 20px;
     display: block;
 }
 
-.section2 {
+.section2
+{
     height: 100px;
 }
 
-.menu {
+.menu
+{
 	padding: 0;
 	margin: 0;
     display: block;
 }
 
-.menu li {
+.menu li
+{
 	float: left;
 	display: block;
     margin-right: 41px;
 }
 
-.menu a {
+.menu a
+{
 	color: #e234e3;
 	text-decoration: none;
     text-transform: uppercase;
 	font-size: 14px;
 }
 
-.change {
+.change
+{
     transition: color .35s linear;
     transition: color .5s linear;
 }
 
-.change:hover {
+.change:hover
+{
     color: #1195da;
 }
 
-h1 {
+h1
+{
     font-family: "Camper Script 2";
     text-align: center;
     margin-top: 0px;
@@ -60,7 +71,8 @@ h1 {
     color: #310335;
 }
 
-h2 {
+h2
+{
    font-family: "Camper Script 2"; 
    text-align: center;
    font-size: 80px;
@@ -69,11 +81,13 @@ h2 {
    opacity: 0.55; 
 }
 
-.wegot {
+.wegot
+{
     background: url(img/invis.png) no-repeat center;
 }
 
-.button {
+.button
+{
     background: #6725e9;
     color: #310335;
     border-radius: 4px;
@@ -90,17 +104,82 @@ h2 {
     font-family: "Incised901 Nd BT";
 }
 
-.image {
-    width: 500px;
-    height: 350px;
+img {
+    width: 400px;
+    height: 300px;
     position: relative;
 }
 
-.fst_line_image {
-    text-align: center;
+.services
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Incised901 Nd BT";
 }
 
-.snd_line_image {
+.container
+{
+    width: 1230px;
+    min-height: 500px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .box
+{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.container .box .imgBox
+{
+    position: relative;
+    overflow: hidden;                /*Increase hidden behind the box*/
+}
+
+.container .box .imgBox img
+{
+    max-width: 100%;
+    transition: transform 1.3s;
+}
+
+
+
+.container .box:hover .imgBox img      /*Img increase animation*/
+{
+    transform: scale(1.2);
+}
+
+.container .box .details
+{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    bottom: 50px;
+    right: 60px;
+    background: rgba(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+
+.container .box:hover .details             /*Text transformation*/
+{
+    transform: scaleY(1);
+}
+
+
+.container .box .details .content h3
+{
+    font-size: 25px;
     text-align: center;
+    color: #1195da;
     margin-top: 50px;
+    padding: 0;
 }
